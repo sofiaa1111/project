@@ -5,14 +5,14 @@ package by.sonya.homework1;
 
 public class BookTask5 {
     public static void main(String[] args) {
-        int x = 1233;
-        System.out.println(x);
-        int fourth_digit = 1234 % 10;
-        int third_digit = 123 % 10;
-        int second_digit = 12 % 10;
-        int first_digit = 1 % 10;
-        if(fourth_digit!=third_digit && fourth_digit!=second_digit && fourth_digit!=first_digit
-                && third_digit!=second_digit && third_digit!=first_digit && second_digit!=first_digit){
+        int number = 1233;
+        System.out.println(number);
+        int fourthDigit = 1234 % 10;
+        int thirdDigit = 123 % 10;
+        int secondDigit = 12 % 10;
+        int firstDigit = 1 % 10;
+        if(fourthDigit!=thirdDigit && fourthDigit!=secondDigit && fourthDigit!=firstDigit
+                && thirdDigit!=secondDigit && thirdDigit!=firstDigit && secondDigit!=firstDigit){
             System.out.println("Верно! Все цифры числа различны.");
         }
         else{

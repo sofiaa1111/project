@@ -9,9 +9,9 @@ package by.sonya.homework1;
 
 public class BookTask3 {
     public static void main(String[] args) {
-        int time_interval = 4500;
+        int timeInterval = 4500;
         int sec = 4500 % 60; //секунды
-        int m = (time_interval - sec) / 60;
+        int m = (timeInterval - sec) / 60;
         int min = m % 60; //минуты
         System.out.printf("A)%d минут %d секунд", min, sec);
 

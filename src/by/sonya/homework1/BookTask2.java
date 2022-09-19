@@ -11,5 +11,6 @@ public class BookTask2 {
         System.out.println("Input your name: ");
         String name = in.nextLine();
         System.out.printf("Hello, %s!", name);
-    }
+in.close();
+         }
 }
