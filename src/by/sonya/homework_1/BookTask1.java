@@ -1,4 +1,4 @@
-package by.sonya.homework1;
+package by.sonya.homework_1;
 
 //Набрать приведенный пример, откомпилировать его и запустить.
 
